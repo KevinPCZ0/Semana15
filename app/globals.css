@@ -40,3 +40,29 @@
     transform: translateY(0);
   }
 }
+
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.card img{
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+
+.card-info h2{
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+}
+
+.card.card-info p{
+  margin-bottom: 4px;
+}
